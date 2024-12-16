@@ -26,27 +26,27 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.main_add-task {
+.main__add_task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
-.main_add-wrapper {
+.main__add_wrapper {
   display: flex;
 }
 .main_todo {
   margin: 0;
   padding: 0px;
 }
-.main_todo-item, 
+.main__todo_item, 
 .main_title {
   list-style: none;
 }
 .input, 
-.main_todo-btn {
+.main__btn {
   outline: none;
 }
-.main_todo-btn {
+.main__btn {
   background: none;
   border: 0px;
   color: #888;
@@ -55,12 +55,12 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.main_todo-btn:hover {
+.main__btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
 .main_title,
-.main_add-label {
+.main__add_label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,15 +85,15 @@
   color: #333;
 }
 /* New Task */
-.main_add-label {
+.main__add_label {
   display: block;
   margin: 0 0 20px;
 }
-.main_add-task {
+.main__add_task {
   width: 318px;
 }
 /* Task list */
-.main_todo-item {
+.main__todo_item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -101,42 +101,42 @@
   justify-content: space-between;
   align-items: center;
 }
-.main_todo-item > * {
+.main__todo_item > * {
   vertical-align: middle;
 }
-.main_todo-item > .main_todo-check {
+.main__todo_item > .main__todo_check {
   margin: 0 10px;
 }
-.main_todo-item > .main_todo-label {
+.main__todo_item > .main__todo_label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.main_todo-item > .input {
+.main__todo_item > .input {
   width: 226px;
 }
-.main_todo-btn.delete img {
+.main__btn.delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.main_todo-btn.delete img:hover {
+.main__btn.delete img:hover {
   transform: rotateZ(0);
 }
 /* Completed */
-#completed-tasks .main_todo-label {
+#completed-tasks .main__todo_label {
   text-decoration: line-through;
   color: #888;
 }
 /* Edit Task */
-.main_todo .main_todo-item .input {
+.main_todo .main__todo_item .input {
   display: none;
 }
-.main_todo .main_todo-item.edit-mode .input {
+.main_todo .main__todo_item.edit-mode .input {
   display: inline-block;
   width: 224px;
 }
-.main_todo .main_todo-item.edit-mode .main_todo-label {
+.main_todo .main__todo_item.edit-mode .main__todo_label {
   display: none;
 }
