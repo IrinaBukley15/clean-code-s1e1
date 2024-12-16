@@ -16,7 +16,6 @@
 .header .header_link {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .header {
     text-align: center;
@@ -85,7 +84,6 @@
 .input:focus {
   color: #333;
 }
-
 /* New Task */
 .main_add-label {
   display: block;
@@ -94,7 +92,6 @@
 .main_add-task {
   width: 318px;
 }
-
 /* Task list */
 .main_todo-item {
   overflow: hidden;
@@ -107,7 +104,6 @@
 .main_todo-item > * {
   vertical-align: middle;
 }
-
 .main_todo-item > .main_todo-check {
   margin: 0 10px;
 }
@@ -128,23 +124,19 @@
 .main_todo-btn.delete img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
-.main_todo#completed-tasks .main_todo-label {
+#completed-tasks .main_todo-label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
 .main_todo .main_todo-item .input {
   display:none
 }
-
 .main_todo .main_todo-item.edit-mode .input {
   display:inline-block;
   width:224px
 }
-
 .main_todo .main_todo-item.edit-mode .main_todo-label {
   display:none;
 }
